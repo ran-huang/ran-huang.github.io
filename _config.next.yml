@@ -138,9 +138,9 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
-#scheme: Gemini
+# scheme: Mist
+scheme: Pisces
+# scheme: Gemini
 darkmode: true
 
 # Deployment
