@@ -11,6 +11,8 @@ tags:
 
 *a.k.a. My Intern Report for the First Month*
 
+<!-- more -->
+
 - [Foreword](#foreword)
 - [How I met PingCAP](#how-i-met-pingcap)
 - [One-month experience](#one-month-experience)
