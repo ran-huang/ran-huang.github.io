@@ -7,8 +7,6 @@ tags:
 - Internship
 ---
 
-# PingCAP 漫游指南
-
 *a.k.a. 实习首月进展报告*
 
 <!-- more -->

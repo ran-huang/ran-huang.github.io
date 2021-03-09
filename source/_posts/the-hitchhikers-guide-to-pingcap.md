@@ -7,8 +7,6 @@ tags:
 - Internship
 ---
 
-# The Hitchhiker's Guide to PingCAP
-
 *a.k.a. My Intern Report for the First Month*
 
 <!-- more -->

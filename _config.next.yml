@@ -113,11 +113,14 @@ meta_generator: true
 post_meta:
   updated_at:
     enable: false
-symbols_count_time:
-  symbols: true
-  time: true
-  total_symbols: false
-  total_time: false
+# wordcount, ref: https://theme-next.js.org/docs/theme-settings/posts.html?highlight=word+count#Post-Wordcount
+# symbols_count_time:
+#  symbols: false
+#  time: true
+# total_symbols: false
+#  total_time: false
+#  separated_meta: false
+#  item_text_total: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -162,7 +165,7 @@ deploy:
 creative_commons:
   license: by-nc-sa
   sidebar: true
-  post: true
+  post: false
   language: deed.zh
 
 valine:
