@@ -11,6 +11,21 @@ author: Ran
 language: en
 timezone: 'UTC+08:00'
 
+# Personal
+avatar: /images/avatar.jpeg
+favicon:
+  small: /images/favicon-16x16.png
+  medium: /images/favicon-32x32.png
+  apple_touch_icon: /images/apple-touch-icon.png
+  safari_pinned_tab:
+
+social:
+  GitHub: https://github.com/ran-huang
+social_icons:
+  enable: true
+  # Icon Mappings
+  GitHub: github
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://ran-huang.github.io
@@ -65,6 +80,26 @@ index_generator:
   per_page: 5
   order_by: -date
 
+# Menu
+menu:
+  home: /
+  archives: /archives
+  # about: /about
+use_motion: false #关闭动画效果
+
+# Menu Icons
+menu_icons:
+  enable: true
+  # Icon Mapping
+  home: home
+  about: user
+  archives: archive
+
+# Sidebar
+sidebar:
+  position: left
+  display: hide
+
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -73,6 +108,16 @@ tag_map:
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
+
+# Post meta
+post_meta:
+  updated_at:
+    enable: false
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: false
+  total_time: false
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
@@ -88,6 +133,11 @@ updated_option: 'date'
 per_page: 5
 pagination_dir: page
 
+footer:
+  since: 2020
+  icon:
+    color: "#343434"
+
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
@@ -98,9 +148,29 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+#scheme: Muse
 scheme: Mist
+#scheme: Pisces
+#scheme: Gemini
+darkmode: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+creative_commons:
+  license: by-nc-sa
+  sidebar: true
+  post: true
+  language: deed.zh
+
+valine:
+  enable: true # 是否开启
+  appid: qWR0bNKITvO7Sya0PHYEKSCF-gzGzoHsz  # 上一步获取的 App ID
+  appkey: Jklv0n55QnopIcrLQiw0zMTB # 上一步获取的 App Key
+  placeholder: Tell me anything! # 默认留言框内的文字
+  avatar: retro # 默认头像
+  guest_info: ['nick','mail'] # 默认留言框的头部需要访问者输入的信息
+  pageSize: 10 # pagination size #默认单页的留言条数
+  visitor: true
