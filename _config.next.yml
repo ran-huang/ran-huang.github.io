@@ -82,23 +82,12 @@ index_generator:
 
 # Menu
 menu:
-  home: /
-  archives: /archives
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
   # about: /about
 use_motion: false #关闭动画效果
-
-# Menu Icons
-menu_icons:
-  enable: true
-  # Icon Mapping
-  home: home
-  about: user
-  archives: archive
-
-# Sidebar
-sidebar:
-  position: left
-  display: hide
+menu_settings:
+  badges: true
 
 # Category & Tag
 default_category: uncategorized
@@ -114,13 +103,10 @@ post_meta:
   updated_at:
     enable: false
 # wordcount, ref: https://theme-next.js.org/docs/theme-settings/posts.html?highlight=word+count#Post-Wordcount
-# symbols_count_time:
-#  symbols: false
-#  time: true
-# total_symbols: false
-#  total_time: false
-#  separated_meta: false
-#  item_text_total: true
+symbols_count_time:
+  separated_meta: false
+  item_text_post: true
+  item_text_total: true
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
