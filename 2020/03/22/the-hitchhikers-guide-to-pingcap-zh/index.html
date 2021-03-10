@@ -30,7 +30,7 @@
 <meta property="og:description" content="a.k.a. 实习首月进展报告">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-03-22T21:10:21.000Z">
-<meta property="article:modified_time" content="2021-03-10T05:51:42.400Z">
+<meta property="article:modified_time" content="2021-03-10T06:06:18.848Z">
 <meta property="article:author" content="Ran">
 <meta property="article:tag" content="PingCAP">
 <meta property="article:tag" content="Technical Writer">
@@ -173,6 +173,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Ran"
+      src="/images/avatar.jpeg">
   <p class="site-author-name" itemprop="name">Ran</p>
   <div class="site-description" itemprop="description"></div>
 </div>
@@ -193,7 +195,10 @@
 </div>
   <div class="links-of-author site-overview-item animated">
       <span class="links-of-author-item">
-        <a href="https://github.com/ran-huang" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ran-huang" rel="noopener" target="_blank">GitHub</a>
+        <a href="https://github.com/ran-huang" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ran-huang" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/yeI1ow" title="Twitter → https:&#x2F;&#x2F;twitter.com&#x2F;yeI1ow" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i></a>
       </span>
   </div>
   <div class="cc-license site-overview-item animated" itemprop="license">
@@ -236,7 +241,7 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2020/03/22/the-hitchhikers-guide-to-pingcap-zh/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.jpeg">
       <meta itemprop="name" content="Ran">
       <meta itemprop="description" content="">
     </span>
@@ -260,6 +265,20 @@
       <time title="Created: 2020-03-22 21:10:21" itemprop="dateCreated datePublished" datetime="2020-03-22T21:10:21+00:00">2020-03-22</time>
     </span>
 
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Disqus: </span>
+    
+    <a title="disqus" href="/2020/03/22/the-hitchhikers-guide-to-pingcap-zh/#disqus_thread" itemprop="discussionUrl">
+      <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2020/03/22/the-hitchhikers-guide-to-pingcap-zh/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
   
     <span class="post-meta-item" title="Symbols count in article">
       <span class="post-meta-item-icon">
@@ -370,6 +389,11 @@
 
 
 
+    
+  <div class="comments" id="disqus_thread">
+    <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+  </div>
+  
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -429,6 +453,37 @@
 
 
 
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://just-a-blog-1.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
+<script>
+  var disqus_config = function() {
+    this.page.url = "http://example.com/2020/03/22/the-hitchhikers-guide-to-pingcap-zh/";
+    this.page.identifier = "2020/03/22/the-hitchhikers-guide-to-pingcap-zh/";
+    this.page.title = "PingCAP 漫游指南";
+    };
+  NexT.utils.loadComments('#disqus_thread', () => {
+    if (window.DISQUS) {
+      DISQUS.reset({
+        reload: true,
+        config: disqus_config
+      });
+    } else {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://just-a-blog-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', '' + +new Date());
+      (d.head || d.body).appendChild(s);
+    }
+  });
+</script>
 
 </body>
 </html>
