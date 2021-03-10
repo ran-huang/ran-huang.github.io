@@ -164,7 +164,11 @@ creative_commons:
 #  pageSize: 10 # pagination size #默认单页的留言条数
 #  visitor: true
 
-leancloud_visitors:
-  enable: true
-  appid: qWR0bNKITvO7Sya0PHYEKSCF-gzGzoHsz  # 上一步获取的 App ID
-  appkey: Jklv0n55QnopIcrLQiw0zMTB # 上一步获取的 App Key
+#leancloud_visitors:
+#  enable: true
+ # appid: qWR0bNKITvO7Sya0PHYEKSCF-gzGzoHsz  # 上一步获取的 App ID
+#  appkey: Jklv0n55QnopIcrLQiw0zMTB # 上一步获取的 App Key
+
+google_analytics:
+  tracking_id: UA-159537545-1
+  only_pageview: false
