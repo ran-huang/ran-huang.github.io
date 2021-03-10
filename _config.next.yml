@@ -12,7 +12,8 @@ language: en
 timezone: 'UTC+08:00'
 
 # Personal
-avatar: /images/avatar.jpeg
+avatar:
+  url: /images/avatar.jpeg
 favicon:
   small: /images/favicon-16x16.png
   medium: /images/favicon-32x32.png
@@ -20,11 +21,12 @@ favicon:
   safari_pinned_tab:
 
 social:
-  GitHub: https://github.com/ran-huang
+  GitHub: https://github.com/ran-huang || fab fa-github
+  Twitter: https://twitter.com/yeI1ow || fab fa-twitter
 social_icons:
   enable: true
-  # Icon Mappings
-  GitHub: github
+  icons_only: true
+  transition: false
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -172,3 +174,8 @@ creative_commons:
 google_analytics:
   tracking_id: UA-159537545-1
   only_pageview: false
+
+disqus:
+  enable: true
+  shortname: just-a-blog-1
+  count: true
